@@ -1,0 +1,2 @@
+export const target = process.env.NODE_ENV !== 'production' ? '' : ''; //目标网站
+export const pathImage = process.env.NODE_ENV !== 'production' ? 'http://testimg.scientistin.com/imgs' : 'http://img.scientistin.com/imgs'; //目标网站
